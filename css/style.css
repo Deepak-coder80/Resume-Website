@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightblue;
+    background-color: rgb(238, 167, 139);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ body{
 /* Resume left side styles*/
 .container .left-side{
     position: relative;
-    background-color: #003147;
+    background-color: #b9401b;
     padding: 40px;
 }
 /* Resume profile image and Name and sub headingstyles*/
@@ -106,9 +106,9 @@ body{
     margin-bottom: 15px;
 }
 .contact-Info.education h5{
-    color: lightseagreen;
+    color: rgb(24, 212, 65);
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
 }
 .contact-Info.education {
     color: #fff;
