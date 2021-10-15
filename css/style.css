@@ -196,3 +196,32 @@ body{
     height: 100%;
     background: #b9401b;
 }
+
+/*Hobbies section*/
+.hobbies ul{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+}
+.hobbies ul li{
+    list-style: none;
+    color: #201d1c;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.hobbies ul li .fa{
+    color: #b9401b;
+    font-size: 18px;
+    width: 20px;
+}
+
+/*screen size*/
+@media (max-width:1000px){
+    .container{
+        margin:10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .hobbies ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
