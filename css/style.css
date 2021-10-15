@@ -101,6 +101,11 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.linkstyle{
+    
+    color: black;
+    
+}
 /*Education Info styles*/
 .contact-Info.education li{
     margin-bottom: 15px;
@@ -126,4 +131,38 @@ body{
     position: relative;
     background-color: #fff;
     padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #b9401b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .date{
+    min-width: 150px;
+}
+
+.about .box .date h5{
+    text-transform: uppercase;
+    color: #585452;
+    font-weight: 600;
+}
+
+.about .box .text2 h4{
+    text-transform: uppercase;
+    color: #b9401b;
+    font-size: 16px;
 }
